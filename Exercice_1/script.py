@@ -39,10 +39,6 @@ procurement_data.loc[procurement_data['Unit'] == 't', 'Unit'] = 'kg'
 procurement_data['Quantity in kg'] = procurement_data['Quantity in kg'].astype(str).str.replace(',', '.')
 procurement_data['Quantity in kg'] = pd.to_numeric(procurement_data['Quantity in kg'], errors='coerce')
 
-# Round values in the "Quantity" column to 2 decimal places
-procurement_data['Quantity in kg'] = procurement_data['Quantity in kg']
-#.round(2)
-
 """ Cleaning CONCUR 2023 Cars Inc data """
 # Replace IDs in the 'Emission Factor ID' column based on the 'Transport' column
 emission_factor_mapping = {
@@ -149,7 +145,7 @@ def generate_readme():
         f.write("Values in tonnes (`t`) are converted to kilograms (`kg`) by multiplying them by 1000.\n\n")
 
         f.write("#### c. Clean Quantity Column\n")
-        f.write("Commas are replaced with dots in the Quantity column for consistency. The Quantity column is then converted to numeric format and rounded to two decimal places.\n\n")
+        f.write("Commas are replaced with dots in the Quantity column.\n\n")
         
         f.write("### 4. CONCUR 2023 Cars Inc Data Cleaning (2nd sheet)\n")
         f.write("#### a. Map Emission Factor ID Based on Transport Mode\n")
@@ -171,7 +167,7 @@ def generate_readme():
         f.write("I chose to replace the extreme value. Here's the detailed explanation of this approach:\n\n")
         f.write("- **Country**: In this case, the country is 'France'. I assumed that offices located within the same country, particularly in France, would have relatively similar energy consumption patterns due to uniform energy consumption standards, strict environmental regulations, and a relatively consistent climate. This homogeneity supports the use of the average to correct an outlier in this context.\n\n")
         f.write("- **Location**: I limited the records to those from 'FR Offices', which refers to offices located in France. Offices within the same company and country are expected to have comparable energy consumption patterns, as they share similar infrastructure and standardized energy usage habits.\n\n")
-        f.write("- **Type**: The outlier value was related to gas consumption, which is why I filtered by 'Gas'. Gas and electricity consumption follow different dynamics, so it was important to isolate gas-related records to ensure an accurate calculation.\n\n")
+        f.write("- **Type**: The outlier value was related to gas consumption, which is why I filtered by 'Gas'.\n\n")
         
         f.write("### 6. Emission Factors Mapping and CO2e Calculation\n")
         f.write("A `mapping` function was created to calculate the CO2e emissions by multiplying the Quantity by the corresponding emission factor from the dictionary.\n\n")
@@ -193,9 +189,6 @@ def generate_readme():
         f.write("- Procurement Castel_Cleaned.csv\n")
         f.write("- CONCUR 2023 Cars Inc_Cleaned.csv\n")
         f.write("- Energy data_Cleaned.csv\n\n")
-
-        f.write("### 9. Completion\n")
-        f.write("The CSV files were generated and are ready for further analysis or reporting.\n")
 
 generate_readme()
 

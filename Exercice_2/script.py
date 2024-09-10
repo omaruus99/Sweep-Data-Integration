@@ -27,7 +27,6 @@ if response.status_code == 200:
 else:
     print(f"Erreur {response.status_code}: {response.text}")
 
-
 # Extract and aggregate emissions by Facility
 emissions_by_facility = {}
 
@@ -49,7 +48,7 @@ emissions_sorted = [item[1] for item in sorted_data]
 # Create a bar chart
 max_index = 0
 colors = ['skyblue'] * len(emissions_sorted)
-colors[max_index] = 'red'  # The bar with the maximum emissions will be red (To show the most emissive Facility in 2022.)
+colors[max_index] = 'red'  # The bar with the maximum emissions will be red (To show the most emissive Facility in 2022)
 
 plt.figure(figsize=(12, 8))
 bars = plt.bar(facilities_sorted, emissions_sorted, color=colors)
