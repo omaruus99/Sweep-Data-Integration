@@ -50,13 +50,13 @@ git clone https://github.com/omaruus99/Sweep-Data-Integration
 pip install -r requirements.txt
 ```
 
-### Run the script for Exercice_1
+### Run the script for Exercice 1
 ```bash
 cd Exercice_1 
 python script.py
 ```
 
-### Run the script for Exercice_2
+### Run the script for Exercice 2
 ```bash
 cd Exercice_2 
 python script.py
