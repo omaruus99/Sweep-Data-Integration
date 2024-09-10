@@ -61,10 +61,11 @@ python script.py
 cd Exercice_2 
 python script.py
 ```
+For security reasons, the API key is not hard-coded. You will need to enter your API key when running the script.
 
 
 ## Output Files
-### For exercice_1
+### For exercice 1
 After running the script, the following cleaned CSV files will be available in `Exercice_1/output` :
 
 - Procurement_Castel_Cleaned.csv
@@ -73,5 +74,5 @@ After running the script, the following cleaned CSV files will be available in `
 
 The generated README.md file will be saved in the `Exercice_1/docs`.
 
-### For exercice_2
+### For exercice 2
 The graph showing the distribution of emissions by Facility for the year 2022 is saved in the `Exercice_2/output`.
