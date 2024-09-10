@@ -35,7 +35,6 @@ The project requires the following Python libraries:
 - pandas
 - numpy
 - openpyxl
-- json
 - requests
 - matplotlib
 
