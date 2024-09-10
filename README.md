@@ -51,16 +51,16 @@ git clone <https://github.com/omaruus99/Sweep-Data-Integration>
 pip install -r requirements.txt
 ```
 
-### Install Required Libraries:
-
 ### Run the script for Exercice_1
 ```bash
-cd Exercice_1 > python script.py
+cd Exercice_1 
+python script.py
 ```
 
 ### Run the script for Exercice_2
 ```bash
-cd Exercice_2 > python script.py
+cd Exercice_2 
+python script.py
 ```
 
 

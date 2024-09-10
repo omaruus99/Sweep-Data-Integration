@@ -64,6 +64,6 @@ for bar in bars:
     plt.text(bar.get_x() + bar.get_width() / 2, height, f'{height:.2f}', ha='center', va='bottom')
 
 # Save and display the chart
-plt.savefig('Exercice_2/output/emissions_by_facility.png', format='png')
+plt.savefig('./output/emissions_by_facility.png', format='png')
 plt.tight_layout()
 plt.show()

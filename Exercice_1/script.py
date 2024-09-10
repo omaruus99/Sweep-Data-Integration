@@ -17,7 +17,7 @@ emission_factors = {
 }
 
 # Load the Excel data
-file_path = "Exercice_1/data/activity_data_sweep-input.xlsx"
+file_path = "./data/activity_data_sweep-input.xlsx"
 procurement_data = pd.read_excel(file_path, sheet_name="Procurement Castel")
 concur_data = pd.read_excel(file_path, sheet_name="CONCUR 2023 Cars Inc", header=1)
 energy_data = pd.read_excel(file_path, sheet_name="Energy data", header=1)
@@ -116,15 +116,15 @@ concur_data = validate_data(concur_data, 'CONCUR 2023 Cars Inc_Cleaned.csv')
 energy_data = validate_data(energy_data, 'Energy data_cleaned.csv')
 
 # Save the cleaned and validated DataFrames to CSV files
-procurement_data.to_csv('Exercice_1/output/Procurement Castel_Cleaned.csv', index=False)
-concur_data.to_csv('Exercice_1/output/CONCUR 2023 Cars Inc_Cleaned.csv', index=False)
-energy_data.to_csv('Exercice_1/output/Energy data_cleaned.csv', index=False)
+procurement_data.to_csv('./output/Procurement Castel_Cleaned.csv', index=False)
+concur_data.to_csv('./output/CONCUR 2023 Cars Inc_Cleaned.csv', index=False)
+energy_data.to_csv('./output/Energy data_cleaned.csv', index=False)
 
 print("CSV files have been created successfully. Please check the 'output' folder")
 
 """ README.md generation """
 def generate_readme():
-    with open("Exercice_1/docs/README.md", "w") as f:
+    with open("./docs/README.md", "w") as f:
         f.write("# Data Cleaning and CO2e Calculation for Emission Data\n\n")
         f.write("## Project Overview\n")
         f.write("This project involves cleaning and transforming activity data from three different sheets within an Excel file: Procurement Castel, CONCUR 2023 Cars Inc, and Energy data. Emission factors are applied to calculate CO2e emissions for each record. The result is then saved as separate CSV files.\n\n")
