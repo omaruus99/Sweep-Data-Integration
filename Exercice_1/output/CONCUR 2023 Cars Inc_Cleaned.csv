@@ -1,0 +1,146 @@
+Region,Facility,Category,Quantity,Unit,Start Date,End Date,Transport,Emission Factor ID,CO2e
+Europe,Facility 1,Business Travel,603,p.km,2023-01-01,2023-12-31,Air,262740,183.915
+Europe,Facility 1,Business Travel,338,p.km,2023-01-01,2023-12-31,Air,262740,103.09
+Europe,Facility 1,Business Travel,568,p.km,2023-01-01,2023-12-31,Air,262740,173.24
+Europe,Facility 1,Business Travel,841,p.km,2023-01-01,2023-12-31,Air,262740,256.505
+Europe,Facility 1,Business Travel,526,p.km,2023-01-01,2023-12-31,Air,262740,160.43
+Europe,Facility 1,Business Travel,565,p.km,2023-01-01,2023-12-31,Air,262740,172.325
+Europe,Facility 2,Business Travel,356,p.km,2023-01-01,2023-12-31,Air,262740,108.58
+Europe,Facility 2,Business Travel,667,p.km,2023-01-01,2023-12-31,Air,262740,203.435
+Europe,Facility 2,Business Travel,316,p.km,2023-01-01,2023-12-31,Air,262740,96.38
+Europe,Facility 2,Business Travel,889,p.km,2023-01-01,2023-12-31,Air,262740,271.145
+Europe,Facility 2,Business Travel,739,p.km,2023-01-01,2023-12-31,Air,262740,225.39499999999998
+Europe,Facility 2,Business Travel,530,p.km,2023-01-01,2023-12-31,Air,262740,161.65
+United States,Facility 6,Business Travel,790,p.km,2023-01-01,2023-12-31,Air,262740,240.95
+United States,Facility 6,Business Travel,561,p.km,2023-01-01,2023-12-31,Air,262740,171.105
+United States,Facility 6,Business Travel,306,p.km,2023-01-01,2023-12-31,Air,262740,93.33
+United States,Facility 6,Business Travel,221,p.km,2023-01-01,2023-12-31,Air,262740,67.405
+United States,Facility 6,Business Travel,711,p.km,2023-01-01,2023-12-31,Air,262740,216.855
+United States,Facility 6,Business Travel,389,p.km,2023-01-01,2023-12-31,Air,262740,118.645
+United States,Facility 7,Business Travel,795,p.km,2023-01-01,2023-12-31,Air,262740,242.475
+United States,Facility 7,Business Travel,245,p.km,2023-01-01,2023-12-31,Air,262740,74.725
+United States,Facility 7,Business Travel,670,p.km,2023-01-01,2023-12-31,Air,262740,204.35
+United States,Facility 7,Business Travel,387,p.km,2023-01-01,2023-12-31,Air,262740,118.035
+United States,Facility 7,Business Travel,498,p.km,2023-01-01,2023-12-31,Air,262740,151.89
+United States,Facility 7,Business Travel,514,p.km,2023-01-01,2023-12-31,Air,262740,156.77
+United States,Facility 8,Business Travel,117,p.km,2023-01-01,2023-12-31,Air,262740,35.685
+United States,Facility 8,Business Travel,395,p.km,2023-01-01,2023-12-31,Air,262740,120.475
+United States,Facility 8,Business Travel,735,p.km,2023-01-01,2023-12-31,Air,262740,224.17499999999998
+United States,Facility 8,Business Travel,315,p.km,2023-01-01,2023-12-31,Air,262740,96.075
+United States,Facility 8,Business Travel,614,p.km,2023-01-01,2023-12-31,Air,262740,187.26999999999998
+United States,Facility 8,Business Travel,782,p.km,2023-01-01,2023-12-31,Air,262740,238.51
+South East Asia,Facility 3,Business Travel,611,p.km,2023-01-01,2023-12-31,Air,262740,186.355
+South East Asia,Facility 3,Business Travel,456,p.km,2023-01-01,2023-12-31,Air,262740,139.07999999999998
+South East Asia,Facility 3,Business Travel,284,p.km,2023-01-01,2023-12-31,Air,262740,86.62
+South East Asia,Facility 3,Business Travel,579,p.km,2023-01-01,2023-12-31,Air,262740,176.595
+South East Asia,Facility 3,Business Travel,482,p.km,2023-01-01,2023-12-31,Air,262740,147.01
+South East Asia,Facility 3,Business Travel,775,p.km,2023-01-01,2023-12-31,Air,262740,236.375
+South East Asia,Facility 4,Business Travel,395,p.km,2023-01-01,2023-12-31,Air,262740,120.475
+South East Asia,Facility 4,Business Travel,844,p.km,2023-01-01,2023-12-31,Air,262740,257.42
+South East Asia,Facility 4,Business Travel,332,p.km,2023-01-01,2023-12-31,Air,262740,101.25999999999999
+South East Asia,Facility 4,Business Travel,895,p.km,2023-01-01,2023-12-31,Air,262740,272.97499999999997
+South East Asia,Facility 4,Business Travel,568,p.km,2023-01-01,2023-12-31,Air,262740,173.24
+South East Asia,Facility 4,Business Travel,207,p.km,2023-01-01,2023-12-31,Air,262740,63.135
+South East Asia,Facility 5,Business Travel,414,p.km,2023-01-01,2023-12-31,Air,262740,126.27
+South East Asia,Facility 5,Business Travel,594,p.km,2023-01-01,2023-12-31,Air,262740,181.17
+South East Asia,Facility 5,Business Travel,143,p.km,2023-01-01,2023-12-31,Air,262740,43.615
+South East Asia,Facility 5,Business Travel,873,p.km,2023-01-01,2023-12-31,Air,262740,266.265
+South East Asia,Facility 5,Business Travel,338,p.km,2023-01-01,2023-12-31,Air,262740,103.09
+South East Asia,Facility 5,Business Travel,854,p.km,2023-01-01,2023-12-31,Air,262740,260.46999999999997
+Europe,Facility 1,Business Travel,225,p.km,2023-01-01,2023-12-31,Road,5418889,33.525
+Europe,Facility 1,Business Travel,175,p.km,2023-01-01,2023-12-31,Road,5418889,26.075
+Europe,Facility 1,Business Travel,117,p.km,2023-01-01,2023-12-31,Road,5418889,17.433
+Europe,Facility 1,Business Travel,380,p.km,2023-01-01,2023-12-31,Road,5418889,56.62
+Europe,Facility 1,Business Travel,554,p.km,2023-01-01,2023-12-31,Road,5418889,82.54599999999999
+Europe,Facility 1,Business Travel,511,p.km,2023-01-01,2023-12-31,Road,5418889,76.139
+Europe,Facility 2,Business Travel,633,p.km,2023-01-01,2023-12-31,Road,5418889,94.317
+Europe,Facility 2,Business Travel,606,p.km,2023-01-01,2023-12-31,Road,5418889,90.294
+Europe,Facility 2,Business Travel,441,p.km,2023-01-01,2023-12-31,Road,5418889,65.709
+Europe,Facility 2,Business Travel,687,p.km,2023-01-01,2023-12-31,Road,5418889,102.363
+Europe,Facility 2,Business Travel,404,p.km,2023-01-01,2023-12-31,Road,5418889,60.196
+Europe,Facility 2,Business Travel,671,p.km,2023-01-01,2023-12-31,Road,5418889,99.979
+United States,Facility 6,Business Travel,760,p.km,2023-01-01,2023-12-31,Road,5418889,113.24
+United States,Facility 6,Business Travel,751,p.km,2023-01-01,2023-12-31,Road,5418889,111.899
+United States,Facility 6,Business Travel,637,p.km,2023-01-01,2023-12-31,Road,5418889,94.913
+United States,Facility 6,Business Travel,777,p.km,2023-01-01,2023-12-31,Road,5418889,115.773
+United States,Facility 6,Business Travel,436,p.km,2023-01-01,2023-12-31,Road,5418889,64.964
+United States,Facility 6,Business Travel,629,p.km,2023-01-01,2023-12-31,Road,5418889,93.72099999999999
+United States,Facility 7,Business Travel,217,p.km,2023-01-01,2023-12-31,Road,5418889,32.333
+United States,Facility 7,Business Travel,824,p.km,2023-01-01,2023-12-31,Road,5418889,122.776
+United States,Facility 7,Business Travel,842,p.km,2023-01-01,2023-12-31,Road,5418889,125.458
+United States,Facility 7,Business Travel,147,p.km,2023-01-01,2023-12-31,Road,5418889,21.903
+United States,Facility 7,Business Travel,194,p.km,2023-01-01,2023-12-31,Road,5418889,28.906
+United States,Facility 7,Business Travel,740,p.km,2023-01-01,2023-12-31,Road,5418889,110.25999999999999
+United States,Facility 8,Business Travel,101,p.km,2023-01-01,2023-12-31,Road,5418889,15.049
+United States,Facility 8,Business Travel,670,p.km,2023-01-01,2023-12-31,Road,5418889,99.83
+United States,Facility 8,Business Travel,593,p.km,2023-01-01,2023-12-31,Road,5418889,88.357
+United States,Facility 8,Business Travel,214,p.km,2023-01-01,2023-12-31,Road,5418889,31.886
+United States,Facility 8,Business Travel,651,p.km,2023-01-01,2023-12-31,Road,5418889,96.999
+United States,Facility 8,Business Travel,170,p.km,2023-01-01,2023-12-31,Road,5418889,25.33
+South East Asia,Facility 3,Business Travel,236,p.km,2023-01-01,2023-12-31,Road,5418889,35.164
+South East Asia,Facility 3,Business Travel,648,p.km,2023-01-01,2023-12-31,Road,5418889,96.55199999999999
+South East Asia,Facility 3,Business Travel,703,p.km,2023-01-01,2023-12-31,Road,5418889,104.747
+South East Asia,Facility 3,Business Travel,891,p.km,2023-01-01,2023-12-31,Road,5418889,132.759
+South East Asia,Facility 3,Business Travel,874,p.km,2023-01-01,2023-12-31,Road,5418889,130.226
+South East Asia,Facility 3,Business Travel,242,p.km,2023-01-01,2023-12-31,Road,5418889,36.058
+South East Asia,Facility 4,Business Travel,554,p.km,2023-01-01,2023-12-31,Road,5418889,82.54599999999999
+South East Asia,Facility 4,Business Travel,245,p.km,2023-01-01,2023-12-31,Road,5418889,36.504999999999995
+South East Asia,Facility 4,Business Travel,378,p.km,2023-01-01,2023-12-31,Road,5418889,56.321999999999996
+South East Asia,Facility 4,Business Travel,666,p.km,2023-01-01,2023-12-31,Road,5418889,99.234
+South East Asia,Facility 4,Business Travel,835,p.km,2023-01-01,2023-12-31,Road,5418889,124.41499999999999
+South East Asia,Facility 4,Business Travel,153,p.km,2023-01-01,2023-12-31,Road,5418889,22.797
+South East Asia,Facility 5,Business Travel,461,p.km,2023-01-01,2023-12-31,Road,5418889,68.689
+South East Asia,Facility 5,Business Travel,501,p.km,2023-01-01,2023-12-31,Road,5418889,74.649
+South East Asia,Facility 5,Business Travel,438,p.km,2023-01-01,2023-12-31,Road,5418889,65.262
+South East Asia,Facility 5,Business Travel,219,p.km,2023-01-01,2023-12-31,Road,5418889,32.631
+South East Asia,Facility 5,Business Travel,500,p.km,2023-01-01,2023-12-31,Road,5418889,74.5
+South East Asia,Facility 5,Business Travel,722,p.km,2023-01-01,2023-12-31,Road,5418889,107.57799999999999
+Europe,Facility 1,Business Travel,384,p.km,2023-01-01,2023-12-31,Train,5424149,2.2732799999999997
+Europe,Facility 1,Business Travel,732,p.km,2023-01-01,2023-12-31,Train,5424149,4.3334399999999995
+Europe,Facility 1,Business Travel,118,p.km,2023-01-01,2023-12-31,Train,5424149,0.69856
+Europe,Facility 1,Business Travel,257,p.km,2023-01-01,2023-12-31,Train,5424149,1.52144
+Europe,Facility 1,Business Travel,646,p.km,2023-01-01,2023-12-31,Train,5424149,3.82432
+Europe,Facility 1,Business Travel,489,p.km,2023-01-01,2023-12-31,Train,5424149,2.89488
+Europe,Facility 2,Business Travel,351,p.km,2023-01-01,2023-12-31,Train,5424149,2.0779199999999998
+Europe,Facility 2,Business Travel,769,p.km,2023-01-01,2023-12-31,Train,5424149,4.55248
+Europe,Facility 2,Business Travel,651,p.km,2023-01-01,2023-12-31,Train,5424149,3.85392
+Europe,Facility 2,Business Travel,180,p.km,2023-01-01,2023-12-31,Train,5424149,1.0655999999999999
+Europe,Facility 2,Business Travel,527,p.km,2023-01-01,2023-12-31,Train,5424149,3.11984
+Europe,Facility 2,Business Travel,226,p.km,2023-01-01,2023-12-31,Train,5424149,1.33792
+Europe,Facility 2,Business Travel,671,p.km,2023-01-01,2023-12-31,Train,5424149,3.97232
+United States,Facility 6,Business Travel,324,p.km,2023-01-01,2023-12-31,Train,5424149,1.91808
+United States,Facility 6,Business Travel,539,p.km,2023-01-01,2023-12-31,Train,5424149,3.19088
+United States,Facility 6,Business Travel,433,p.km,2023-01-01,2023-12-31,Train,5424149,2.56336
+United States,Facility 6,Business Travel,375,p.km,2023-01-01,2023-12-31,Train,5424149,2.2199999999999998
+United States,Facility 6,Business Travel,553,p.km,2023-01-01,2023-12-31,Train,5424149,3.27376
+United States,Facility 6,Business Travel,365,p.km,2023-01-01,2023-12-31,Train,5424149,2.1608
+United States,Facility 7,Business Travel,780,p.km,2023-01-01,2023-12-31,Train,5424149,4.6176
+United States,Facility 7,Business Travel,831,p.km,2023-01-01,2023-12-31,Train,5424149,4.91952
+United States,Facility 7,Business Travel,723,p.km,2023-01-01,2023-12-31,Train,5424149,4.2801599999999995
+United States,Facility 7,Business Travel,564,p.km,2023-01-01,2023-12-31,Train,5424149,3.33888
+United States,Facility 7,Business Travel,114,p.km,2023-01-01,2023-12-31,Train,5424149,0.67488
+United States,Facility 7,Business Travel,181,p.km,2023-01-01,2023-12-31,Train,5424149,1.07152
+United States,Facility 8,Business Travel,711,p.km,2023-01-01,2023-12-31,Train,5424149,4.2091199999999995
+United States,Facility 8,Business Travel,719,p.km,2023-01-01,2023-12-31,Train,5424149,4.25648
+United States,Facility 8,Business Travel,316,p.km,2023-01-01,2023-12-31,Train,5424149,1.87072
+United States,Facility 8,Business Travel,879,p.km,2023-01-01,2023-12-31,Train,5424149,5.20368
+United States,Facility 8,Business Travel,823,p.km,2023-01-01,2023-12-31,Train,5424149,4.87216
+United States,Facility 8,Business Travel,827,p.km,2023-01-01,2023-12-31,Train,5424149,4.89584
+South East Asia,Facility 3,Business Travel,401,p.km,2023-01-01,2023-12-31,Train,5424149,2.37392
+South East Asia,Facility 3,Business Travel,486,p.km,2023-01-01,2023-12-31,Train,5424149,2.87712
+South East Asia,Facility 3,Business Travel,820,p.km,2023-01-01,2023-12-31,Train,5424149,4.8544
+South East Asia,Facility 3,Business Travel,352,p.km,2023-01-01,2023-12-31,Train,5424149,2.08384
+South East Asia,Facility 3,Business Travel,182,p.km,2023-01-01,2023-12-31,Train,5424149,1.07744
+South East Asia,Facility 3,Business Travel,110,p.km,2023-01-01,2023-12-31,Train,5424149,0.6512
+South East Asia,Facility 4,Business Travel,520,p.km,2023-01-01,2023-12-31,Train,5424149,3.0784
+South East Asia,Facility 4,Business Travel,599,p.km,2023-01-01,2023-12-31,Train,5424149,3.54608
+South East Asia,Facility 4,Business Travel,245,p.km,2023-01-01,2023-12-31,Train,5424149,1.4504
+South East Asia,Facility 4,Business Travel,753,p.km,2023-01-01,2023-12-31,Train,5424149,4.4577599999999995
+South East Asia,Facility 4,Business Travel,508,p.km,2023-01-01,2023-12-31,Train,5424149,3.00736
+South East Asia,Facility 4,Business Travel,422,p.km,2023-01-01,2023-12-31,Train,5424149,2.49824
+South East Asia,Facility 5,Business Travel,170,p.km,2023-01-01,2023-12-31,Train,5424149,1.0064
+South East Asia,Facility 5,Business Travel,154,p.km,2023-01-01,2023-12-31,Train,5424149,0.9116799999999999
+South East Asia,Facility 5,Business Travel,805,p.km,2023-01-01,2023-12-31,Train,5424149,4.7656
+South East Asia,Facility 5,Business Travel,137,p.km,2023-01-01,2023-12-31,Train,5424149,0.81104
+South East Asia,Facility 5,Business Travel,888,p.km,2023-01-01,2023-12-31,Train,5424149,5.25696
+South East Asia,Facility 5,Business Travel,593,p.km,2023-01-01,2023-12-31,Train,5424149,3.51056

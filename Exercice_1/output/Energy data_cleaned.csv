@@ -1,0 +1,36 @@
+Country,Location,Facility,Type,Unit,Quantity,SD,ED,Status,%missing,Collection,Pro-rated/not pro-rated,Emission Factor ID,CO2e
+China,CN Factory,Facility 3,Elec,kWh,48837.6,2021-01-01,2021-12-31,Complete,0.0,Utility provider,Not pro-rated,262477,19828.0656
+China,CN Factory,Facility 3,Elec,kWh,69354.6,2023-01-01,2023-12-31,Complete,0.0,Utility provider,Pro-rated/,262477,28157.967600000004
+China,CN Warehouse,Facility 4,Elec,kWh,80318.3,2023-01-01,2023-12-31,Complete,0.0,Utility provider,Pro-rated/,262477,32609.229800000005
+China,CN Warehouse,Facility 4,Elec,kWh,68750.0,2022-01-01,2022-12-31,Partial,0.3,Utility provider,Pro-rated/,262477,27912.500000000004
+China,CN Offices,Facility 5,Elec,kWh,22770.0,2022-01-01,2022-12-31,Complete,0.0,Utility provider,Pro-rated/,262477,9244.62
+France,FR Offices,Facility 1,Elec,kWh,13781.9,2020-01-01,2020-12-31,Complete,0.0,Utility provider,Pro-rated/,262477,5595.4514
+France,FR Offices,Facility 1,Elec,kWh,48837.6,2021-01-01,2021-12-31,Complete,0.0,Utility provider,Not pro-rated,262477,19828.0656
+France,FR Offices,Facility 1,Elec,kWh,83130.0,2022-01-01,2022-12-31,Complete,0.0,Utility provider,Not pro-rated,262477,33750.78
+France,FR Warehouse,Facility 2,Elec,kWh,79794.0,2020-01-01,2020-12-31,Complete,0.0,Utility provider,Not pro-rated,262477,32396.364
+France,FR Warehouse,Facility 2,Elec,kWh,39535.2,2021-01-01,2021-12-31,Complete,0.0,Utility provider,Pro-rated/,262477,16051.2912
+France,FR Warehouse,Facility 2,Elec,kWh,74405.0,2023-01-01,2023-12-31,Partial,0.4,Utility provider,Pro-rated/,262477,30208.43
+France,FR Warehouse,Facility 2,Elec,kWh,16080.0,2022-01-01,2022-12-31,Complete,0.0,Utility provider,Pro-rated/,262477,6528.4800000000005
+USA,US Warehouse,Facility 6,Elec,kWh,71250.0,2023-01-01,2023-12-31,Complete,0.0,Utility provider,Not pro-rated,262477,28927.500000000004
+USA,US Warehouse,Facility 6,Elec,kWh,33705.0,2022-01-01,2022-12-31,Complete,0.0,Utility provider,Not pro-rated,262477,13684.230000000001
+USA,US Offices,Facility 7,Elec,kWh,83546.1,2023-01-01,2023-12-31,Partial,0.5,Utility provider,Not pro-rated,262477,33919.71660000001
+USA,US Offices,Facility 7,Elec,kWh,64030.0,2022-01-01,2022-12-31,Complete,0.0,Utility provider,Not pro-rated,262477,25996.18
+China,CN Factory,Facility 3,Gas,kWh,876.96,2021-01-01,2021-12-31,Complete,0.0,Utility provider,Pro-rated/,3360917,161.24663520000001
+China,CN Factory,Facility 3,Gas,kWh,124.62,2023-01-01,2023-12-31,Complete,0.0,Utility provider,Not pro-rated,3360917,22.913879400000003
+China,CN Warehouse,Facility 4,Gas,kWh,748.14,2020-01-01,2020-12-31,Complete,0.0,Utility provider,Pro-rated/,3360917,137.5605018
+China,CN Warehouse,Facility 4,Gas,kWh,456.0,2022-01-01,2022-12-31,Complete,0.0,Utility provider,Not pro-rated,3360917,83.84472000000001
+China,CN Warehouse,Facility 4,Gas,kWh,987.0,2022-01-01,2022-12-31,Complete,0.0,Utility provider,Not pro-rated,3360917,181.47969
+China,CN Offices,Facility 5,Gas,kWh,469.68,2020-01-01,2020-12-31,Complete,0.0,Utility provider,Pro-rated/,3360917,86.36006160000001
+China,CN Offices,Facility 5,Gas,kWh,743.0,2022-01-01,2022-12-31,Complete,0.0,Utility provider,Not pro-rated,3360917,136.61541
+France,FR Offices,Facility 1,Gas,kWh,801.5,2020-01-01,2020-12-31,Partial,0.6,Landlord,Not pro-rated,3360917,147.371805
+France,FR Offices,Facility 1,Gas,kWh,978.0,2023-01-01,2023-12-31,Complete,0.0,Utility provider,Pro-rated/,3360917,179.82486
+France,FR Offices,Facility 1,Gas,kWh,625.0,2022-01-01,2022-12-31,Complete,0.0,Utility provider,Pro-rated/,3360917,114.91875
+France,FR Warehouse,Facility 2,Gas,kWh,369.15,2020-01-01,2020-12-31,Complete,0.0,Utility provider,Pro-rated/,3360917,67.8756105
+France,FR Warehouse,Facility 2,Gas,kWh,789.34,2021-01-01,2021-12-31,Complete,0.0,Utility provider,Not pro-rated,3360917,145.1359458
+France,FR Warehouse,Facility 2,Gas,kWh,978.0,2022-01-01,2022-12-31,Partial,0.3,Landlord,Not pro-rated,3360917,179.82486
+USA,US Warehouse,Facility 6,Gas,kWh,275.77,2020-01-01,2020-12-31,Complete,0.0,Utility provider,Not pro-rated,3360917,50.7058299
+USA,US Warehouse,Facility 6,Gas,kWh,888.3,2023-01-01,2023-12-31,Complete,0.0,Utility provider,Pro-rated/,3360917,163.331721
+USA,US Warehouse,Facility 6,Gas,kWh,858.0,2022-01-01,2022-12-31,Partial,0.6,Landlord,Pro-rated/,3360917,157.76046
+USA,US Offices,Facility 7,Gas,kWh,719.25,2020-01-01,2020-12-31,Partial,0.75,Landlord,Not pro-rated,3360917,132.2484975
+USA,US Offices,Facility 7,Gas,kWh,595.24,2023-01-01,2023-12-31,Complete,0.0,Utility provider,Pro-rated/,3360917,109.4467788
+USA,US Offices,Facility 7,Gas,kWh,134.0,2022-01-01,2022-12-31,Complete,0.0,Utility provider,Pro-rated/,3360917,24.63858
