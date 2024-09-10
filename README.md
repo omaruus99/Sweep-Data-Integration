@@ -43,7 +43,7 @@ The project requires the following Python libraries:
 ### Clone the Repository:
 
 ```bash
-git clone <https://github.com/omaruus99/Sweep-Data-Integration>
+git clone https://github.com/omaruus99/Sweep-Data-Integration
 ```
 ### Install Required Libraries:
 ```bash
