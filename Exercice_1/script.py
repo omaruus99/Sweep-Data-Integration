@@ -1,6 +1,7 @@
 import pandas as pd
 import numpy as np
 import openpyxl
+from pathlib import Path
 
 # Create the emission factors dictionary
 emission_factors = {
@@ -16,13 +17,17 @@ emission_factors = {
     3360917: 0.18387
 }
 
-# Load the Excel data
-file_path = "./data/activity_data_sweep-input.xlsx"
+# Define the file paths and load Excel data
+base_path = Path("./data")
+output_path = Path("./output")
+docs_path = Path("./docs")
+
+file_path = base_path / "activity_data_sweep-input.xlsx"
+
 procurement_data = pd.read_excel(file_path, sheet_name="Procurement Castel")
 concur_data = pd.read_excel(file_path, sheet_name="CONCUR 2023 Cars Inc", header=1)
 energy_data = pd.read_excel(file_path, sheet_name="Energy data", header=1)
 ef_data = pd.read_excel(file_path, sheet_name="EF")
-
 
 """ Cleaning Procurement Castel data """
 # Find the emission factor ID for aluminum
@@ -112,15 +117,15 @@ concur_data = validate_data(concur_data, 'CONCUR 2023 Cars Inc_Cleaned.csv')
 energy_data = validate_data(energy_data, 'Energy data_cleaned.csv')
 
 # Save the cleaned and validated DataFrames to CSV files
-procurement_data.to_csv('./output/Procurement Castel_Cleaned.csv', index=False)
-concur_data.to_csv('./output/CONCUR 2023 Cars Inc_Cleaned.csv', index=False)
-energy_data.to_csv('./output/Energy data_cleaned.csv', index=False)
+procurement_data.to_csv(output_path / 'Procurement Castel_Cleaned.csv', index=False)
+concur_data.to_csv(output_path / 'CONCUR 2023 Cars Inc_Cleaned.csv', index=False)
+energy_data.to_csv(output_path / 'Energy data_cleaned.csv', index=False)
 
 print("CSV files have been created successfully. Please check the 'output' folder")
 
 """ README.md generation """
 def generate_readme():
-    with open("./docs/README.md", "w") as f:
+    with open(docs_path / "README.md", "w") as f:
         f.write("# Data Cleaning and CO2e Calculation for Emission Data\n\n")
         f.write("## Project Overview\n")
         f.write("This project involves cleaning and transforming activity data from three different sheets within an Excel file: Procurement Castel, CONCUR 2023 Cars Inc, and Energy data. Emission factors are applied to calculate CO2e emissions for each record. The result is then saved as separate CSV files.\n\n")
@@ -131,7 +136,7 @@ def generate_readme():
         f.write("A dictionary was created that maps Emission Factor ID to the corresponding emission factor values. This dictionary is used to calculate CO2e emissions for each entry.\n\n")
         
         f.write("### 2. Load Excel Data\n")
-        f.write("The Excel file `activity_data_sweep-input.xlsx` is loaded, and the following sheets are extracted:\n")
+        f.write("The Excel file `activity_data_sweep-input.xlsx` is loaded with the `header=1` parameter applied for sheets to remove unnecessary headers, and the following sheets are extracted::\n")
         f.write("- Procurement Castel\n")
         f.write("- CONCUR 2023 Cars Inc\n")
         f.write("- Energy data\n")

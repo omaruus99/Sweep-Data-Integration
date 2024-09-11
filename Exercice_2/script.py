@@ -1,8 +1,9 @@
 import requests
 import json
 import matplotlib.pyplot as plt
+from pathlib import Path
 
-API_KEY = input("Please enter your API_KEY : ")
+API_KEY = input("Please enter your API_KEY: ")
 
 # API URL for retrieving emission measurements
 url = 'https://api.sweep.net/api/v1/measurements'
@@ -55,14 +56,16 @@ bars = plt.bar(facilities_sorted, emissions_sorted, color=colors)
 plt.title('Emission Distribution by Facility in 2022 (Sorted in Descending Order)')
 plt.xlabel('Facility')
 plt.ylabel('Emissions (tons of CO2e)')
-plt.xticks(rotation=0)  
+plt.xticks(rotation=0)
 
 # Add value labels on top of each bar in the chart
 for bar in bars:
     height = bar.get_height()
     plt.text(bar.get_x() + bar.get_width() / 2, height, f'{height:.2f}', ha='center', va='bottom')
 
-# Save and display the chart
-plt.savefig('./output/emissions_by_facility.png', format='png')
+# Define output path and save and display the chart
+output_path = Path('./output/emissions_by_facility.png')
+plt.savefig(output_path, format='png')
 plt.tight_layout()
+print(f"Chart saved at: {output_path.resolve()}")
 plt.show()
