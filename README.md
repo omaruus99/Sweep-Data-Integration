@@ -47,6 +47,7 @@ git clone https://github.com/omaruus99/Sweep-Data-Integration
 ```
 ### Install Required Libraries:
 ```bash
+cd Sweep-Data-Integration
 pip install -r requirements.txt
 ```
 
