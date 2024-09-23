@@ -16,12 +16,12 @@ The project directory is structured as follows:
 
 ```bash
 Sweep_Data_Integration
-├── Exercice_1
+├── project_1
 │   └── data
 │   └── docs
 │   └── output
 │   └── script.py
-├── Exercice_2
+├── project_2
 │   ├── output
 │   └── script.py
 ├── README.md
@@ -51,29 +51,29 @@ cd Sweep-Data-Integration
 pip install -r requirements.txt
 ```
 
-### Run the script for Exercice 1
+### Run the script for project 1
 ```bash
-cd Exercice_1 
+cd project_1 
 python script.py
 ```
 
-### Run the script for Exercice 2
+### Run the script for project 2
 ```bash
-cd Exercice_2 
+cd project_2 
 python script.py
 ```
 For security reasons, the API key is not hard-coded. You will need to enter your API key when running the script.
 
 
 ## Output Files
-### For exercice 1
-After running the script, the following cleaned CSV files will be available in `Exercice_1/output` :
+### For project 1
+After running the script, the following cleaned CSV files will be available in `project_1/output` :
 
 - Procurement_Castel_Cleaned.csv
 - CONCUR_2023_Cars_Inc_Cleaned.csv
 - Energy_data_Cleaned.csv
 
-The generated README.md file will be saved in the `Exercice_1/docs`.
+The generated README.md file will be saved in the `project_1/docs`.
 
-### For exercice 2
-The graph showing the distribution of emissions by Facility for the year 2022 is saved in the `Exercice_2/output`.
+### For project 2
+The graph showing the distribution of emissions by Facility for the year 2022 is saved in the `project_2/output`.
